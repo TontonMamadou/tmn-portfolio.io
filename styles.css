@@ -172,7 +172,7 @@ ul.navbar {
 }
 
 
-/*---------------------Dropdown menu caché---------------------------------------------------------- */
+/*----------------------------------------Dropdown menu caché---------------------------------------------------------- */
 .dropdown-menu {
     position: absolute;
     top: 100%; /* Place le menu sous l'élément parent */
