@@ -153,6 +153,67 @@ ul.navbar {
 }
 
 
+.nav-item {
+    position: relative; /* Position relative pour le dropdown */
+    display: inline-block;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e74c3c; /* Changement de couleur au survol */
+}
+
+/* Dropdown menu caché */
+.dropdown-menu {
+    position: absolute;
+    top: 100%; /* Place le menu sous l'élément parent */
+    left: 0;
+    background-color: #444; /* Couleur de fond du menu */
+    display: none; /* Cache le menu par défaut */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    min-width: 150px;
+    z-index: 1000;
+}
+
+/* Style des éléments du dropdown */
+.dropdown-menu li {
+    border-bottom: 1px solid #555;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-menu a:hover {
+    background-color: #e74c3c; /* Couleur au survol */
+    color: white;
+}
+
+/* Afficher le dropdown menu au survol */
+.nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+
 /*=============================================Menu Mobile======================================================*/
 #menu-toggle {
     display: none;
