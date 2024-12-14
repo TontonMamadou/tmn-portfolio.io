@@ -212,7 +212,7 @@ ul.navbar {
         display: flex;
         flex-direction: column;
         list-style-type: none;
-        padding-top: 80px;
+        padding-top: 50px;
         /*margin-left: none;*/
     }
 
