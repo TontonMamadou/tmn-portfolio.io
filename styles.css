@@ -171,12 +171,13 @@ ul.navbar {
     color: #e74c3c; /* Changement de couleur au survol */
 }
 
-/* Dropdown menu caché */
+
+/*---------------------Dropdown menu caché---------------------------------------------------------- */
 .dropdown-menu {
     position: absolute;
     top: 100%; /* Place le menu sous l'élément parent */
     left: 0;
-    background-color: #444; /* Couleur de fond du menu */
+    background-color: #555; /* Couleur de fond du menu */
     display: none; /* Cache le menu par défaut */
     list-style: none;
     margin: 0;
