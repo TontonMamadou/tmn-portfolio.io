@@ -979,6 +979,12 @@ h3.sisr, h3.slam {
     margin-bottom: 20px;
 }
 
+.veille-row h3 {
+    color: #e74c3c;
+    font-size: 25px;
+    padding-top: 30px;
+}
+
 /*------------------------------------------------Section Contact-------------------------------------------------------*/
 .contact-info {
     display: flex;
