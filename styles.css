@@ -809,6 +809,12 @@ h3.sisr, h3.slam {
     background-color: #f9f9f9;
 }
 
+.taches-titres {
+    padding: 10px;
+    color: #e74c3c;
+    font-size: 26px;
+}
+
 #stage1-menu .container {
     width: 90%;
     max-width: 1200px;
